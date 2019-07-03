@@ -50,11 +50,7 @@
 		1BBDA7F422CCB0FE005FE590 /* Sugar_Reader */ = {
 			isa = PBXGroup;
 			children = (
-				1BBDA82022CCB730005FE590 /* Base */,
-				1BBDA81F22CCB70C005FE590 /* SRViews */,
-				1BBDA7FF22CCB148005FE590 /* SRViewController */,
-				1BBDA7FE22CCB131005FE590 /* SRExtension */,
-				1BBDA7FD22CCB128005FE590 /* SRModel */,
+				1BBDA82522CCBAAF005FE590 /* Sources */,
 				1BBDA7F522CCB0FE005FE590 /* Sugar_Reader.h */,
 				1BBDA7F622CCB0FE005FE590 /* Info.plist */,
 			);
@@ -104,6 +100,18 @@
 				1BBDA82322CCB795005FE590 /* SRBaseViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		1BBDA82522CCBAAF005FE590 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1BBDA82022CCB730005FE590 /* Base */,
+				1BBDA81F22CCB70C005FE590 /* SRViews */,
+				1BBDA7FF22CCB148005FE590 /* SRViewController */,
+				1BBDA7FE22CCB131005FE590 /* SRExtension */,
+				1BBDA7FD22CCB128005FE590 /* SRModel */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
