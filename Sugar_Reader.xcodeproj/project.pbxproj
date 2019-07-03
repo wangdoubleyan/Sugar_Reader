@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BBDA7F722CCB0FE005FE590 /* Sugar_Reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBDA7F522CCB0FE005FE590 /* Sugar_Reader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BBDA82222CCB744005FE590 /* SRBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82122CCB744005FE590 /* SRBaseView.swift */; };
+		1BBDA82422CCB795005FE590 /* SRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82322CCB795005FE590 /* SRBaseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BBDA7F222CCB0FE005FE590 /* Sugar_Reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sugar_Reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BBDA7F522CCB0FE005FE590 /* Sugar_Reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sugar_Reader.h; sourceTree = "<group>"; };
+		1BBDA7F622CCB0FE005FE590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BBDA82122CCB744005FE590 /* SRBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRBaseView.swift; sourceTree = "<group>"; };
+		1BBDA82322CCB795005FE590 /* SRBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRBaseViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BBDA7EF22CCB0FE005FE590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BBDA7E822CCB0FE005FE590 = {
+			isa = PBXGroup;
+			children = (
+				1BBDA7F422CCB0FE005FE590 /* Sugar_Reader */,
+				1BBDA7F322CCB0FE005FE590 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BBDA7F322CCB0FE005FE590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BBDA7F222CCB0FE005FE590 /* Sugar_Reader.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BBDA7F422CCB0FE005FE590 /* Sugar_Reader */ = {
+			isa = PBXGroup;
+			children = (
+				1BBDA82022CCB730005FE590 /* Base */,
+				1BBDA81F22CCB70C005FE590 /* SRViews */,
+				1BBDA7FF22CCB148005FE590 /* SRViewController */,
+				1BBDA7FE22CCB131005FE590 /* SRExtension */,
+				1BBDA7FD22CCB128005FE590 /* SRModel */,
+				1BBDA7F522CCB0FE005FE590 /* Sugar_Reader.h */,
+				1BBDA7F622CCB0FE005FE590 /* Info.plist */,
+			);
+			path = Sugar_Reader;
+			sourceTree = "<group>";
+		};
+		1BBDA7FD22CCB128005FE590 /* SRModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SRModel;
+			sourceTree = "<group>";
+		};
+		1BBDA7FE22CCB131005FE590 /* SRExtension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SRExtension;
+			sourceTree = "<group>";
+		};
+		1BBDA7FF22CCB148005FE590 /* SRViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1BBDA81E22CCB6D4005FE590 /* Base */,
+			);
+			path = SRViewController;
+			sourceTree = "<group>";
+		};
+		1BBDA81E22CCB6D4005FE590 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1BBDA81F22CCB70C005FE590 /* SRViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SRViews;
+			sourceTree = "<group>";
+		};
+		1BBDA82022CCB730005FE590 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1BBDA82122CCB744005FE590 /* SRBaseView.swift */,
+				1BBDA82322CCB795005FE590 /* SRBaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BBDA7ED22CCB0FE005FE590 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BBDA7F722CCB0FE005FE590 /* Sugar_Reader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BBDA7F122CCB0FE005FE590 /* Sugar_Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BBDA7FA22CCB0FE005FE590 /* Build configuration list for PBXNativeTarget "Sugar_Reader" */;
+			buildPhases = (
+				1BBDA7ED22CCB0FE005FE590 /* Headers */,
+				1BBDA7EE22CCB0FE005FE590 /* Sources */,
+				1BBDA7EF22CCB0FE005FE590 /* Frameworks */,
+				1BBDA7F022CCB0FE005FE590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sugar_Reader;
+			productName = Sugar_Reader;
+			productReference = 1BBDA7F222CCB0FE005FE590 /* Sugar_Reader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BBDA7E922CCB0FE005FE590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Sugar;
+				TargetAttributes = {
+					1BBDA7F122CCB0FE005FE590 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 1BBDA7EC22CCB0FE005FE590 /* Build configuration list for PBXProject "Sugar_Reader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1BBDA7E822CCB0FE005FE590;
+			productRefGroup = 1BBDA7F322CCB0FE005FE590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BBDA7F122CCB0FE005FE590 /* Sugar_Reader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BBDA7F022CCB0FE005FE590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BBDA7EE22CCB0FE005FE590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BBDA82422CCB795005FE590 /* SRBaseViewController.swift in Sources */,
+				1BBDA82222CCB744005FE590 /* SRBaseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1BBDA7F822CCB0FE005FE590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1BBDA7F922CCB0FE005FE590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BBDA7FB22CCB0FE005FE590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sugar_Reader/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sugar.Sugar-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BBDA7FC22CCB0FE005FE590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sugar_Reader/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sugar.Sugar-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BBDA7EC22CCB0FE005FE590 /* Build configuration list for PBXProject "Sugar_Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BBDA7F822CCB0FE005FE590 /* Debug */,
+				1BBDA7F922CCB0FE005FE590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BBDA7FA22CCB0FE005FE590 /* Build configuration list for PBXNativeTarget "Sugar_Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BBDA7FB22CCB0FE005FE590 /* Debug */,
+				1BBDA7FC22CCB0FE005FE590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BBDA7E922CCB0FE005FE590 /* Project object */;
+}
