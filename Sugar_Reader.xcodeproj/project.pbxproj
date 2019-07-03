@@ -10,6 +10,9 @@
 		1BBDA7F722CCB0FE005FE590 /* Sugar_Reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBDA7F522CCB0FE005FE590 /* Sugar_Reader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BBDA82222CCB744005FE590 /* SRBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82122CCB744005FE590 /* SRBaseView.swift */; };
 		1BBDA82422CCB795005FE590 /* SRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82322CCB795005FE590 /* SRBaseViewController.swift */; };
+		1BBDA82722CCBEE5005FE590 /* SRReaserNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82622CCBEE5005FE590 /* SRReaserNavBarView.swift */; };
+		1BBDA82922CCBEF6005FE590 /* SRReaderTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82822CCBEF6005FE590 /* SRReaderTabBarView.swift */; };
+		1BBDA82B22CCBF13005FE590 /* SRReaderPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82A22CCBF13005FE590 /* SRReaderPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +21,9 @@
 		1BBDA7F622CCB0FE005FE590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BBDA82122CCB744005FE590 /* SRBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRBaseView.swift; sourceTree = "<group>"; };
 		1BBDA82322CCB795005FE590 /* SRBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRBaseViewController.swift; sourceTree = "<group>"; };
+		1BBDA82622CCBEE5005FE590 /* SRReaserNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRReaserNavBarView.swift; sourceTree = "<group>"; };
+		1BBDA82822CCBEF6005FE590 /* SRReaderTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRReaderTabBarView.swift; sourceTree = "<group>"; };
+		1BBDA82A22CCBF13005FE590 /* SRReaderPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRReaderPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,21 +80,16 @@
 		1BBDA7FF22CCB148005FE590 /* SRViewController */ = {
 			isa = PBXGroup;
 			children = (
-				1BBDA81E22CCB6D4005FE590 /* Base */,
+				1BBDA82A22CCBF13005FE590 /* SRReaderPageViewController.swift */,
 			);
 			path = SRViewController;
-			sourceTree = "<group>";
-		};
-		1BBDA81E22CCB6D4005FE590 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Base;
 			sourceTree = "<group>";
 		};
 		1BBDA81F22CCB70C005FE590 /* SRViews */ = {
 			isa = PBXGroup;
 			children = (
+				1BBDA82622CCBEE5005FE590 /* SRReaserNavBarView.swift */,
+				1BBDA82822CCBEF6005FE590 /* SRReaderTabBarView.swift */,
 			);
 			path = SRViews;
 			sourceTree = "<group>";
@@ -194,6 +195,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BBDA82422CCB795005FE590 /* SRBaseViewController.swift in Sources */,
+				1BBDA82722CCBEE5005FE590 /* SRReaserNavBarView.swift in Sources */,
+				1BBDA82922CCBEF6005FE590 /* SRReaderTabBarView.swift in Sources */,
+				1BBDA82B22CCBF13005FE590 /* SRReaderPageViewController.swift in Sources */,
 				1BBDA82222CCB744005FE590 /* SRBaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
