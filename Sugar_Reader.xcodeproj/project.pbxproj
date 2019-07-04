@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B7FF21722CDABAC0031CEC5 /* SGChapterDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF21622CDABAC0031CEC5 /* SGChapterDataModel.swift */; };
+		1B7FF21922CDD5620031CEC5 /* SGEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF21822CDD5620031CEC5 /* SGEnum.swift */; };
+		1B7FF21C22CDD7390031CEC5 /* SGReaderPageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF21B22CDD7390031CEC5 /* SGReaderPageProtocol.swift */; };
+		1B7FF21F22CDD7A30031CEC5 /* SGReaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF21E22CDD7A30031CEC5 /* SGReaderManager.swift */; };
 		1BBDA7F722CCB0FE005FE590 /* Sugar_Reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBDA7F522CCB0FE005FE590 /* Sugar_Reader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BBDA82222CCB744005FE590 /* SRBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82122CCB744005FE590 /* SRBaseView.swift */; };
-		1BBDA82422CCB795005FE590 /* SRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82322CCB795005FE590 /* SRBaseViewController.swift */; };
-		1BBDA82722CCBEE5005FE590 /* SRReaserNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82622CCBEE5005FE590 /* SRReaserNavBarView.swift */; };
-		1BBDA82922CCBEF6005FE590 /* SRReaderTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82822CCBEF6005FE590 /* SRReaderTabBarView.swift */; };
-		1BBDA82B22CCBF13005FE590 /* SRReaderPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82A22CCBF13005FE590 /* SRReaderPageViewController.swift */; };
+		1BBDA82222CCB744005FE590 /* SGBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82122CCB744005FE590 /* SGBaseView.swift */; };
+		1BBDA82422CCB795005FE590 /* SGBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82322CCB795005FE590 /* SGBaseViewController.swift */; };
+		1BBDA82722CCBEE5005FE590 /* SGReaserNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82622CCBEE5005FE590 /* SGReaserNavBarView.swift */; };
+		1BBDA82922CCBEF6005FE590 /* SGReaderTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82822CCBEF6005FE590 /* SGReaderTabBarView.swift */; };
+		1BBDA82B22CCBF13005FE590 /* SGReaderPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82A22CCBF13005FE590 /* SGReaderPageViewController.swift */; };
+		88905D2E99D497F3E71986BC /* Pods_Sugar_Reader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFC0ABBF45B83C206504293 /* Pods_Sugar_Reader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B7FF21622CDABAC0031CEC5 /* SGChapterDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGChapterDataModel.swift; sourceTree = "<group>"; };
+		1B7FF21822CDD5620031CEC5 /* SGEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGEnum.swift; sourceTree = "<group>"; };
+		1B7FF21B22CDD7390031CEC5 /* SGReaderPageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGReaderPageProtocol.swift; sourceTree = "<group>"; };
+		1B7FF21E22CDD7A30031CEC5 /* SGReaderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGReaderManager.swift; sourceTree = "<group>"; };
 		1BBDA7F222CCB0FE005FE590 /* Sugar_Reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sugar_Reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BBDA7F522CCB0FE005FE590 /* Sugar_Reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sugar_Reader.h; sourceTree = "<group>"; };
 		1BBDA7F622CCB0FE005FE590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BBDA82122CCB744005FE590 /* SRBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRBaseView.swift; sourceTree = "<group>"; };
-		1BBDA82322CCB795005FE590 /* SRBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRBaseViewController.swift; sourceTree = "<group>"; };
-		1BBDA82622CCBEE5005FE590 /* SRReaserNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRReaserNavBarView.swift; sourceTree = "<group>"; };
-		1BBDA82822CCBEF6005FE590 /* SRReaderTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRReaderTabBarView.swift; sourceTree = "<group>"; };
-		1BBDA82A22CCBF13005FE590 /* SRReaderPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRReaderPageViewController.swift; sourceTree = "<group>"; };
+		1BBDA82122CCB744005FE590 /* SGBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGBaseView.swift; sourceTree = "<group>"; };
+		1BBDA82322CCB795005FE590 /* SGBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGBaseViewController.swift; sourceTree = "<group>"; };
+		1BBDA82622CCBEE5005FE590 /* SGReaserNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGReaserNavBarView.swift; sourceTree = "<group>"; };
+		1BBDA82822CCBEF6005FE590 /* SGReaderTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGReaderTabBarView.swift; sourceTree = "<group>"; };
+		1BBDA82A22CCBF13005FE590 /* SGReaderPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGReaderPageViewController.swift; sourceTree = "<group>"; };
+		3C93BA321F6B02036AA95BFE /* Pods-Sugar_Reader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sugar_Reader.release.xcconfig"; path = "Target Support Files/Pods-Sugar_Reader/Pods-Sugar_Reader.release.xcconfig"; sourceTree = "<group>"; };
+		3C9DE1D383F7C2D5D35326D9 /* Pods-Sugar_Reader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sugar_Reader.debug.xcconfig"; path = "Target Support Files/Pods-Sugar_Reader/Pods-Sugar_Reader.debug.xcconfig"; sourceTree = "<group>"; };
+		DBFC0ABBF45B83C206504293 /* Pods_Sugar_Reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sugar_Reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88905D2E99D497F3E71986BC /* Pods_Sugar_Reader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B7FF21A22CDD70C0031CEC5 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1B7FF21B22CDD7390031CEC5 /* SGReaderPageProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		1B7FF21D22CDD7550031CEC5 /* Process */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Process;
+			sourceTree = "<group>";
+		};
 		1BBDA7E822CCB0FE005FE590 = {
 			isa = PBXGroup;
 			children = (
 				1BBDA7F422CCB0FE005FE590 /* Sugar_Reader */,
 				1BBDA7F322CCB0FE005FE590 /* Products */,
+				F69608759D41C9E1922BD4C9 /* Pods */,
+				A25080DADE431051366ECA8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,42 +93,45 @@
 			path = Sugar_Reader;
 			sourceTree = "<group>";
 		};
-		1BBDA7FD22CCB128005FE590 /* SRModel */ = {
+		1BBDA7FD22CCB128005FE590 /* SGModel */ = {
 			isa = PBXGroup;
 			children = (
+				1B7FF21622CDABAC0031CEC5 /* SGChapterDataModel.swift */,
 			);
-			path = SRModel;
+			path = SGModel;
 			sourceTree = "<group>";
 		};
-		1BBDA7FE22CCB131005FE590 /* SRExtension */ = {
+		1BBDA7FE22CCB131005FE590 /* SGExtension */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = SRExtension;
+			path = SGExtension;
 			sourceTree = "<group>";
 		};
-		1BBDA7FF22CCB148005FE590 /* SRViewController */ = {
+		1BBDA7FF22CCB148005FE590 /* SGViewController */ = {
 			isa = PBXGroup;
 			children = (
-				1BBDA82A22CCBF13005FE590 /* SRReaderPageViewController.swift */,
+				1B7FF21A22CDD70C0031CEC5 /* Protocol */,
+				1BBDA82A22CCBF13005FE590 /* SGReaderPageViewController.swift */,
 			);
-			path = SRViewController;
+			path = SGViewController;
 			sourceTree = "<group>";
 		};
-		1BBDA81F22CCB70C005FE590 /* SRViews */ = {
+		1BBDA81F22CCB70C005FE590 /* SGViews */ = {
 			isa = PBXGroup;
 			children = (
-				1BBDA82622CCBEE5005FE590 /* SRReaserNavBarView.swift */,
-				1BBDA82822CCBEF6005FE590 /* SRReaderTabBarView.swift */,
+				1BBDA82622CCBEE5005FE590 /* SGReaserNavBarView.swift */,
+				1BBDA82822CCBEF6005FE590 /* SGReaderTabBarView.swift */,
 			);
-			path = SRViews;
+			path = SGViews;
 			sourceTree = "<group>";
 		};
 		1BBDA82022CCB730005FE590 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				1BBDA82122CCB744005FE590 /* SRBaseView.swift */,
-				1BBDA82322CCB795005FE590 /* SRBaseViewController.swift */,
+				1BBDA82122CCB744005FE590 /* SGBaseView.swift */,
+				1BBDA82322CCB795005FE590 /* SGBaseViewController.swift */,
+				1B7FF21822CDD5620031CEC5 /* SGEnum.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -106,13 +139,32 @@
 		1BBDA82522CCBAAF005FE590 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1B7FF21D22CDD7550031CEC5 /* Process */,
 				1BBDA82022CCB730005FE590 /* Base */,
-				1BBDA81F22CCB70C005FE590 /* SRViews */,
-				1BBDA7FF22CCB148005FE590 /* SRViewController */,
-				1BBDA7FE22CCB131005FE590 /* SRExtension */,
-				1BBDA7FD22CCB128005FE590 /* SRModel */,
+				1BBDA81F22CCB70C005FE590 /* SGViews */,
+				1BBDA7FF22CCB148005FE590 /* SGViewController */,
+				1BBDA7FE22CCB131005FE590 /* SGExtension */,
+				1BBDA7FD22CCB128005FE590 /* SGModel */,
+				1B7FF21E22CDD7A30031CEC5 /* SGReaderManager.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		A25080DADE431051366ECA8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBFC0ABBF45B83C206504293 /* Pods_Sugar_Reader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F69608759D41C9E1922BD4C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C9DE1D383F7C2D5D35326D9 /* Pods-Sugar_Reader.debug.xcconfig */,
+				3C93BA321F6B02036AA95BFE /* Pods-Sugar_Reader.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BBDA7FA22CCB0FE005FE590 /* Build configuration list for PBXNativeTarget "Sugar_Reader" */;
 			buildPhases = (
+				7BEA9612A0D768AFEBE33772 /* [CP] Check Pods Manifest.lock */,
 				1BBDA7ED22CCB0FE005FE590 /* Headers */,
 				1BBDA7EE22CCB0FE005FE590 /* Sources */,
 				1BBDA7EF22CCB0FE005FE590 /* Frameworks */,
@@ -189,16 +242,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7BEA9612A0D768AFEBE33772 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sugar_Reader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1BBDA7EE22CCB0FE005FE590 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BBDA82422CCB795005FE590 /* SRBaseViewController.swift in Sources */,
-				1BBDA82722CCBEE5005FE590 /* SRReaserNavBarView.swift in Sources */,
-				1BBDA82922CCBEF6005FE590 /* SRReaderTabBarView.swift in Sources */,
-				1BBDA82B22CCBF13005FE590 /* SRReaderPageViewController.swift in Sources */,
-				1BBDA82222CCB744005FE590 /* SRBaseView.swift in Sources */,
+				1BBDA82422CCB795005FE590 /* SGBaseViewController.swift in Sources */,
+				1B7FF21C22CDD7390031CEC5 /* SGReaderPageProtocol.swift in Sources */,
+				1B7FF21F22CDD7A30031CEC5 /* SGReaderManager.swift in Sources */,
+				1BBDA82722CCBEE5005FE590 /* SGReaserNavBarView.swift in Sources */,
+				1BBDA82922CCBEF6005FE590 /* SGReaderTabBarView.swift in Sources */,
+				1B7FF21722CDABAC0031CEC5 /* SGChapterDataModel.swift in Sources */,
+				1BBDA82B22CCBF13005FE590 /* SGReaderPageViewController.swift in Sources */,
+				1B7FF21922CDD5620031CEC5 /* SGEnum.swift in Sources */,
+				1BBDA82222CCB744005FE590 /* SGBaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +411,7 @@
 		};
 		1BBDA7FB22CCB0FE005FE590 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C9DE1D383F7C2D5D35326D9 /* Pods-Sugar_Reader.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -355,6 +438,7 @@
 		};
 		1BBDA7FC22CCB0FE005FE590 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C93BA321F6B02036AA95BFE /* Pods-Sugar_Reader.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";

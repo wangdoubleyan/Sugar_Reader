@@ -1,5 +1,5 @@
 //
-//  SRReaderPageViewController.swift
+//  SGBaseViewController.swift
 //  Sugar_Reader
 //
 //  Created by YY on 2019/7/3.
@@ -7,13 +7,22 @@
 //
 
 import UIKit
+import SnapKit
 
-class SRReaderPageViewController: SRBaseViewController {
+class SGBaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        initSubviews()
+        initSubviewsLayout()
+    }
+    
+    func initSubviews() {
+        
+    }
+    
+    func initSubviewsLayout() {
+        
     }
     
 
