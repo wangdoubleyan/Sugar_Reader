@@ -11,6 +11,16 @@
 		1B7FF21922CDD5620031CEC5 /* SGEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF21822CDD5620031CEC5 /* SGEnum.swift */; };
 		1B7FF21C22CDD7390031CEC5 /* SGReaderPageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF21B22CDD7390031CEC5 /* SGReaderPageProtocol.swift */; };
 		1B7FF21F22CDD7A30031CEC5 /* SGReaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF21E22CDD7A30031CEC5 /* SGReaderManager.swift */; };
+		1B7FF24822CDE0050031CEC5 /* SGMenuDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF24722CDE0050031CEC5 /* SGMenuDataManager.swift */; };
+		1B7FF24A22CDE0830031CEC5 /* SGReadingDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF24922CDE0830031CEC5 /* SGReadingDataManager.swift */; };
+		1B7FF24C22CDE0A20031CEC5 /* SGReaderDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF24B22CDE0A20031CEC5 /* SGReaderDataManager.swift */; };
+		1B7FF24E22CDE3040031CEC5 /* SGReaderSetDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF24D22CDE3040031CEC5 /* SGReaderSetDataManager.swift */; };
+		1B7FF25022CDE3650031CEC5 /* SGDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF24F22CDE3650031CEC5 /* SGDeviceExtension.swift */; };
+		1B7FF25222CDEB980031CEC5 /* SGProtocolManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF25122CDEB980031CEC5 /* SGProtocolManager.swift */; };
+		1B7FF25422CDEE080031CEC5 /* SGPagingProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF25322CDEE080031CEC5 /* SGPagingProcess.swift */; };
+		1B7FF25622CDEE3B0031CEC5 /* SGPagingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF25522CDEE3B0031CEC5 /* SGPagingModel.swift */; };
+		1B7FF25822CDF4650031CEC5 /* SGStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF25722CDF4650031CEC5 /* SGStringExtension.swift */; };
+		1B7FF25A22CDF7320031CEC5 /* SGAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF25922CDF7320031CEC5 /* SGAttributedStringExtension.swift */; };
 		1BBDA7F722CCB0FE005FE590 /* Sugar_Reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBDA7F522CCB0FE005FE590 /* Sugar_Reader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BBDA82222CCB744005FE590 /* SGBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82122CCB744005FE590 /* SGBaseView.swift */; };
 		1BBDA82422CCB795005FE590 /* SGBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82322CCB795005FE590 /* SGBaseViewController.swift */; };
@@ -25,6 +35,16 @@
 		1B7FF21822CDD5620031CEC5 /* SGEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGEnum.swift; sourceTree = "<group>"; };
 		1B7FF21B22CDD7390031CEC5 /* SGReaderPageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGReaderPageProtocol.swift; sourceTree = "<group>"; };
 		1B7FF21E22CDD7A30031CEC5 /* SGReaderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGReaderManager.swift; sourceTree = "<group>"; };
+		1B7FF24722CDE0050031CEC5 /* SGMenuDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGMenuDataManager.swift; sourceTree = "<group>"; };
+		1B7FF24922CDE0830031CEC5 /* SGReadingDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGReadingDataManager.swift; sourceTree = "<group>"; };
+		1B7FF24B22CDE0A20031CEC5 /* SGReaderDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGReaderDataManager.swift; sourceTree = "<group>"; };
+		1B7FF24D22CDE3040031CEC5 /* SGReaderSetDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGReaderSetDataManager.swift; sourceTree = "<group>"; };
+		1B7FF24F22CDE3650031CEC5 /* SGDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGDeviceExtension.swift; sourceTree = "<group>"; };
+		1B7FF25122CDEB980031CEC5 /* SGProtocolManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGProtocolManager.swift; sourceTree = "<group>"; };
+		1B7FF25322CDEE080031CEC5 /* SGPagingProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGPagingProcess.swift; sourceTree = "<group>"; };
+		1B7FF25522CDEE3B0031CEC5 /* SGPagingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGPagingModel.swift; sourceTree = "<group>"; };
+		1B7FF25722CDF4650031CEC5 /* SGStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGStringExtension.swift; sourceTree = "<group>"; };
+		1B7FF25922CDF7320031CEC5 /* SGAttributedStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGAttributedStringExtension.swift; sourceTree = "<group>"; };
 		1BBDA7F222CCB0FE005FE590 /* Sugar_Reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sugar_Reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BBDA7F522CCB0FE005FE590 /* Sugar_Reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sugar_Reader.h; sourceTree = "<group>"; };
 		1BBDA7F622CCB0FE005FE590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,8 +81,21 @@
 		1B7FF21D22CDD7550031CEC5 /* Process */ = {
 			isa = PBXGroup;
 			children = (
+				1B7FF25322CDEE080031CEC5 /* SGPagingProcess.swift */,
 			);
 			path = Process;
+			sourceTree = "<group>";
+		};
+		1B7FF24622CDDFD50031CEC5 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1B7FF24722CDE0050031CEC5 /* SGMenuDataManager.swift */,
+				1B7FF24922CDE0830031CEC5 /* SGReadingDataManager.swift */,
+				1B7FF24B22CDE0A20031CEC5 /* SGReaderDataManager.swift */,
+				1B7FF24D22CDE3040031CEC5 /* SGReaderSetDataManager.swift */,
+				1B7FF25122CDEB980031CEC5 /* SGProtocolManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		1BBDA7E822CCB0FE005FE590 = {
@@ -97,15 +130,19 @@
 			isa = PBXGroup;
 			children = (
 				1B7FF21622CDABAC0031CEC5 /* SGChapterDataModel.swift */,
+				1B7FF25522CDEE3B0031CEC5 /* SGPagingModel.swift */,
 			);
 			path = SGModel;
 			sourceTree = "<group>";
 		};
-		1BBDA7FE22CCB131005FE590 /* SGExtension */ = {
+		1BBDA7FE22CCB131005FE590 /* SGExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				1B7FF24F22CDE3650031CEC5 /* SGDeviceExtension.swift */,
+				1B7FF25722CDF4650031CEC5 /* SGStringExtension.swift */,
+				1B7FF25922CDF7320031CEC5 /* SGAttributedStringExtension.swift */,
 			);
-			path = SGExtension;
+			path = SGExtensions;
 			sourceTree = "<group>";
 		};
 		1BBDA7FF22CCB148005FE590 /* SGViewController */ = {
@@ -139,11 +176,12 @@
 		1BBDA82522CCBAAF005FE590 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1B7FF24622CDDFD50031CEC5 /* Manager */,
 				1B7FF21D22CDD7550031CEC5 /* Process */,
 				1BBDA82022CCB730005FE590 /* Base */,
 				1BBDA81F22CCB70C005FE590 /* SGViews */,
 				1BBDA7FF22CCB148005FE590 /* SGViewController */,
-				1BBDA7FE22CCB131005FE590 /* SGExtension */,
+				1BBDA7FE22CCB131005FE590 /* SGExtensions */,
 				1BBDA7FD22CCB128005FE590 /* SGModel */,
 				1B7FF21E22CDD7A30031CEC5 /* SGReaderManager.swift */,
 			);
@@ -273,14 +311,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BBDA82422CCB795005FE590 /* SGBaseViewController.swift in Sources */,
+				1B7FF25A22CDF7320031CEC5 /* SGAttributedStringExtension.swift in Sources */,
 				1B7FF21C22CDD7390031CEC5 /* SGReaderPageProtocol.swift in Sources */,
+				1B7FF25222CDEB980031CEC5 /* SGProtocolManager.swift in Sources */,
 				1B7FF21F22CDD7A30031CEC5 /* SGReaderManager.swift in Sources */,
+				1B7FF25822CDF4650031CEC5 /* SGStringExtension.swift in Sources */,
 				1BBDA82722CCBEE5005FE590 /* SGReaserNavBarView.swift in Sources */,
+				1B7FF24A22CDE0830031CEC5 /* SGReadingDataManager.swift in Sources */,
+				1B7FF24822CDE0050031CEC5 /* SGMenuDataManager.swift in Sources */,
+				1B7FF25622CDEE3B0031CEC5 /* SGPagingModel.swift in Sources */,
+				1B7FF24C22CDE0A20031CEC5 /* SGReaderDataManager.swift in Sources */,
+				1B7FF24E22CDE3040031CEC5 /* SGReaderSetDataManager.swift in Sources */,
 				1BBDA82922CCBEF6005FE590 /* SGReaderTabBarView.swift in Sources */,
 				1B7FF21722CDABAC0031CEC5 /* SGChapterDataModel.swift in Sources */,
 				1BBDA82B22CCBF13005FE590 /* SGReaderPageViewController.swift in Sources */,
 				1B7FF21922CDD5620031CEC5 /* SGEnum.swift in Sources */,
 				1BBDA82222CCB744005FE590 /* SGBaseView.swift in Sources */,
+				1B7FF25022CDE3650031CEC5 /* SGDeviceExtension.swift in Sources */,
+				1B7FF25422CDEE080031CEC5 /* SGPagingProcess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

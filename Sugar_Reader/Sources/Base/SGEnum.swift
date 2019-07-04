@@ -15,10 +15,10 @@ enum SGPageTurnStyle:Int{
 }
 
 enum SGReaderTheme:Int{
-    case Default = 0
-    case Retro = 1
-    case Green = 2
-    case Pink = 4
-    case Black = 5
-    case Night = 6
+    case SG_Default = 0
+    case SG_Retro = 1
+    case SG_Green = 2
+    case SG_Pink = 4
+    case SG_Black = 5
+    case SG_Night = 6
 }

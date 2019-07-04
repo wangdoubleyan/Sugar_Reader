@@ -10,20 +10,24 @@ import UIKit
 
 
 
-class SGReaderPageViewController: SGBaseViewController {
+public class SGReaderPageViewController: SGBaseViewController {
     /// protocol
     var dataSource:SGReaderPageViewControllerDataSource? = nil
     var delegate:SGReaderPageViewControllerDelegate? = nil
     
     /// Data
-    var menuArray:[SGChapterDataModel] = Array()
+    var menuArray:[SGChapterDataModel] = Array(){
+        didSet{
+            SGMenuDataManager.shared.menuArray = menuArray
+        }
+    }
     //var 
     
     ///
     private var pageView:UIPageViewController = UIPageViewController()
     
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
     }
     

@@ -16,6 +16,6 @@ public class SGChapterDataModel: NSObject {
     /// 章节编号
     var index:Int?
     
-    /// <#Description#>
+    /// 章节内容
     var content:String?
 }

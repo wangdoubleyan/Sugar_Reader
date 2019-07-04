@@ -9,9 +9,9 @@
 import UIKit
 import SnapKit
 
-class SGBaseViewController: UIViewController {
+public class SGBaseViewController: UIViewController {
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         initSubviews()
         initSubviewsLayout()
