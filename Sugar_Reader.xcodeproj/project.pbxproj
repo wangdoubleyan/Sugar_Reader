@@ -20,7 +20,6 @@
 		1B7FF25422CDEE080031CEC5 /* SGPagingProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF25322CDEE080031CEC5 /* SGPagingProcess.swift */; };
 		1B7FF25622CDEE3B0031CEC5 /* SGPagingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF25522CDEE3B0031CEC5 /* SGPagingModel.swift */; };
 		1B7FF25822CDF4650031CEC5 /* SGStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF25722CDF4650031CEC5 /* SGStringExtension.swift */; };
-		1B7FF25A22CDF7320031CEC5 /* SGAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF25922CDF7320031CEC5 /* SGAttributedStringExtension.swift */; };
 		1BBDA7F722CCB0FE005FE590 /* Sugar_Reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBDA7F522CCB0FE005FE590 /* Sugar_Reader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BBDA82222CCB744005FE590 /* SGBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82122CCB744005FE590 /* SGBaseView.swift */; };
 		1BBDA82422CCB795005FE590 /* SGBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDA82322CCB795005FE590 /* SGBaseViewController.swift */; };
@@ -44,7 +43,6 @@
 		1B7FF25322CDEE080031CEC5 /* SGPagingProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGPagingProcess.swift; sourceTree = "<group>"; };
 		1B7FF25522CDEE3B0031CEC5 /* SGPagingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGPagingModel.swift; sourceTree = "<group>"; };
 		1B7FF25722CDF4650031CEC5 /* SGStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGStringExtension.swift; sourceTree = "<group>"; };
-		1B7FF25922CDF7320031CEC5 /* SGAttributedStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGAttributedStringExtension.swift; sourceTree = "<group>"; };
 		1BBDA7F222CCB0FE005FE590 /* Sugar_Reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sugar_Reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BBDA7F522CCB0FE005FE590 /* Sugar_Reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sugar_Reader.h; sourceTree = "<group>"; };
 		1BBDA7F622CCB0FE005FE590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -140,7 +138,6 @@
 			children = (
 				1B7FF24F22CDE3650031CEC5 /* SGDeviceExtension.swift */,
 				1B7FF25722CDF4650031CEC5 /* SGStringExtension.swift */,
-				1B7FF25922CDF7320031CEC5 /* SGAttributedStringExtension.swift */,
 			);
 			path = SGExtensions;
 			sourceTree = "<group>";
@@ -311,7 +308,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BBDA82422CCB795005FE590 /* SGBaseViewController.swift in Sources */,
-				1B7FF25A22CDF7320031CEC5 /* SGAttributedStringExtension.swift in Sources */,
 				1B7FF21C22CDD7390031CEC5 /* SGReaderPageProtocol.swift in Sources */,
 				1B7FF25222CDEB980031CEC5 /* SGProtocolManager.swift in Sources */,
 				1B7FF21F22CDD7A30031CEC5 /* SGReaderManager.swift in Sources */,
