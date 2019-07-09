@@ -8,6 +8,7 @@
 
 import UIKit
 import SnapKit
+import SwiftEntryKit
 
 class SGBaseView: UIView {
     override init(frame: CGRect) {

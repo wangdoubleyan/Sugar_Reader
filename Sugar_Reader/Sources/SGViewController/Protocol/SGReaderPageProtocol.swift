@@ -13,20 +13,23 @@ import UIKit
     @objc optional func minFontSizeForReader() -> Int
     @objc optional func defaultFontSizForReader() -> Int
     @objc optional func fontNameForReader() -> String
-    @objc optional func themesForReader() -> [UIImage]
+    @objc optional func themesForReader() -> [UIColor]
+    @objc optional func textColorForTheme() -> [UIColor]
     @objc optional func setPointForReader() -> CGPoint
     func menuArrayForReader() -> [SGChapterDataModel]
-    func sgReaderPageViewController(_ readerPageViewController: SGReaderPageViewController, beforeChapterModel chapterModel: SGChapterDataModel) -> SGChapterDataModel
-    func sgReaderPageViewController(_ readerPageViewController: SGReaderPageViewController, afterChapterModel chapterModel: SGChapterDataModel) -> SGChapterDataModel
+    func sgPreLoadBeforeChapterModel(_ chapterModel: SGChapterDataModel) -> SGChapterDataModel
+    func sgPreLoadNextChapterModel(_ chapterModel: SGChapterDataModel) -> SGChapterDataModel
+    
 }
 
 @objc public protocol SGReaderPageViewControllerDelegate {
-    @objc optional func sgReaderPageViewController(_ readerPageViewController: SGReaderPageViewController, willTransitionWith chapterModel: SGChapterDataModel)
-    @objc optional func sgReaderPageViewController(_ readerPageViewController: SGReaderPageViewController, didFinishAnimating finished: Bool, chapterModel: SGChapterDataModel, transitionCompleted completed: Bool)
-    @objc optional func sgReaderPageViewController(_ readerPageViewController: SGReaderPageViewController, didClickMenu finished: Bool)
-    @objc optional func sgReaderPageViewController(_ readerPageViewController: SGReaderPageViewController, didSelectTheme theme: Bool)
-    @objc optional func sgReaderPageViewController(_ readerPageViewController: SGReaderPageViewController, didChangeFontSize fonSize: Int)
-    @objc optional func sgReaderPageViewController(_ readerPageViewController: SGReaderPageViewController, didChangeBrightness Brightness: Int)
-    @objc optional func sgReaderPageViewController(_ readerPageViewController: SGReaderPageViewController, didChangeTurnStyle turnStyle: Int)
-    @objc optional func sgReaderPageViewController(_ readerPageViewController: SGReaderPageViewController, didOpen success: Bool)
+    @objc optional func sgReaderPageViewController(willTransitionWith chapterModel: SGChapterDataModel)
+    @objc optional func sgReaderPageViewController(didFinishAnimating finished: Bool, chapterModel: SGChapterDataModel, transitionCompleted completed: Bool)
+    @objc optional func sgReaderPageViewController(didClickMenu finished: Bool)
+    @objc optional func sgReaderPageViewController(didSelectTheme theme: Bool)
+    @objc optional func sgReaderPageViewController(didChangeFontSize fonSize: Int)
+    @objc optional func sgReaderPageViewController(didChangeBrightness Brightness: Int)
+    @objc optional func sgReaderPageViewController(didChangeTurnStyle turnStyle: Int)
+    @objc optional func sgReaderPageViewController(didOpen success: Bool)
+    func sgReaderPageViewController(didSelectChapter chapterModel:SGChapterDataModel, completion: @escaping ((SGChapterDataModel) -> Void))
 }

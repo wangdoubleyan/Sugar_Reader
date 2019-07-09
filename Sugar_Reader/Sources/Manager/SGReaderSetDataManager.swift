@@ -15,8 +15,23 @@ class SGReaderSetDataManager: NSObject {
     }()
     let sgDefaults = UserDefaults.standard
     
-    var themeColors:[UIColor] = Array()
-    var themeTextColors:[UIColor] = Array()
+    var themeColors:[UIColor]{
+        if let themeColor = SGProtocolManager.shared.dataSource?.themesForReader?(){
+            return themeColor
+        }
+        let whiteColor = UIColor(patternImage: (UIImage.init(named: "pic_BG_theme_white")?.scaleFullSize)!)
+        let blackColor = UIColor(patternImage: (UIImage.init(named: "pic_BG_theme_black")?.scaleFullSize)!)
+        let greenColor = UIColor(patternImage: (UIImage.init(named: "pic_BG_theme_green")?.scaleFullSize)!)
+        let redColor = UIColor(patternImage: (UIImage.init(named: "pic_BG_theme_red")?.scaleFullSize)!)
+        let yelloColor = UIColor(patternImage: (UIImage.init(named: "pic_BG_theme_yellow")?.scaleFullSize)!)
+        return [whiteColor,blackColor,greenColor,redColor,yelloColor,.black]
+    }
+    var themeTextColors:[UIColor]{
+        if let colors = SGProtocolManager.shared.dataSource?.textColorForTheme?(){
+            return colors
+        }
+        return [#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1),#colorLiteral(red: 0.2980392157, green: 0.337254902, blue: 0.4, alpha: 1),#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1),#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1),#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1),#colorLiteral(red: 0.2980392157, green: 0.337254902, blue: 0.4, alpha: 1)]
+    }
     
     /// 上边距
     let marginTop:CGFloat = UIDevice.isBangs ? 72 : 42
@@ -133,7 +148,11 @@ class SGReaderSetDataManager: NSObject {
     
     var brightness:CGFloat{
         get{
-            return CGFloat(sgDefaults.float(forKey: "SGBrightness"))
+            let value = CGFloat(sgDefaults.float(forKey: "SGBrightness"))
+            if value < 30{
+                return 100
+            }
+            return value
         }
         set{
             sgDefaults.set(newValue, forKey: "SGBrightness")
@@ -153,7 +172,7 @@ class SGReaderSetDataManager: NSObject {
     
     var textColor:UIColor{
         get{
-            let row = readerTheme.hashValue
+            let row = readerTheme.rawValue
             if row < themeTextColors.count{
                 return themeTextColors[row]
             }
@@ -163,9 +182,11 @@ class SGReaderSetDataManager: NSObject {
     
     var themeColor:UIColor?{
         get{
-            let row = readerTheme.hashValue
-            if row < themeColors.count{
-                return themeColors[row]
+            let row = readerTheme.rawValue
+            if row >= 0{
+                if row < themeColors.count{
+                    return themeColors[row]
+                }
             }
             return .white
         }

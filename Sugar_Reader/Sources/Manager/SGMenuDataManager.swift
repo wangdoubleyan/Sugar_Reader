@@ -16,6 +16,24 @@ public class SGMenuDataManager: NSObject {
         return instance
     }()
     
+    var menuCount:Int{
+        return menuArray.count
+    }
+    
+    func menuDataFor(_ index:Int) -> SGChapterDataModel? {
+        if index < menuCount{
+            return menuArray[index]
+        }
+        return nil
+    }
+    
+    func menuTitleFor(_ index:Int) -> String {
+        if index < menuCount{
+            return menuArray[index].title ?? ""
+        }
+        return ""
+    }
+    
     
     
 }

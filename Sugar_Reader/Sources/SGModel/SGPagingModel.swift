@@ -9,10 +9,10 @@
 import UIKit
 
 public class SGPagingModel: NSObject {
-   public var attrString:NSAttributedString?
-   public var pageAttrStrings:Array<NSAttributedString>?
-   public var chapterIndex:Int?
-   public var title:String?
+    public var attrString:NSAttributedString?
+    public var pageAttrStrings:Array<NSAttributedString>?
+    public var chapterIndex:Int?
+    public var title:String?
 }
 
 extension SGPagingModel{
